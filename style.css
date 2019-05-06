@@ -1,0 +1,398 @@
+
+/* My classes for styling */
+
+.my-5 {margin-top: 7rem !important;}
+.my-6 { margin-top: 10rem;}
+.my-7 { margin-top:15rem}
+
+body { font-family: 'Josefin Sans', sans-serif;  }
+/* navbar osnoven */
+nav a { color: white;
+font-size: 14px;}
+.navbar { background:rgba(107, 103, 103, 0);}
+.nav-ul {margin-right: 5%;}
+.nav-ul li {margin-right: 25px;}
+#HireUs-btn { 
+background: linear-gradient(#F83D44, #F83D44);
+color: white;
+width: 150px;
+text-align: center;
+}
+#HireUs-btn:hover {background-color:rgba(239, 24, 38, 0.417) }
+#logo-img2 { display: none;
+width: 150px}
+#logo-img  img{width: 150px;}
+#logo-img2 img{width: 150px;}
+/* First slide description  */
+.home-page-description { 
+color: white;
+}
+.home-page-description p {
+  font-size: 30px; 
+}
+#meet-the-team-btn {
+  background:none;
+  color: white;
+  font-size: 13px;
+  padding: 4% 9%;
+}
+#meet-the-team-btn:hover { 
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
+#padding-container { 
+  padding: 7%;
+  margin-top: 40%;
+}
+
+/* index first page */
+.index-background-container { 
+ background: linear-gradient(rgba(22, 26, 27, 0.534),rgb(24, 27, 29)), url('img/bg-home-4de-g-f003213659.jpg');
+ background-attachment: fixed;
+ height: 90vh;
+ background-size: cover;
+ background-position: bottom;
+ opacity: 0.9;
+}
+.lap-top-img img{ 
+  width: 115%;
+  margin-top: 50%;
+}
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.card {
+  display: inline-block;
+} 
+/* second slide */
+.second-slide-row  h2{ 
+    font-size: 35px;
+    margin-top: 5%;
+}   
+.second-slide-row  p{ 
+    font-size: 17px;
+    line-height: 40px;
+}
+
+#color-red-span { color: red;}
+#service-btn { 
+  background:#FF2C40;
+  color: white;
+  padding: 2%;
+  width: 150px;
+}
+
+/* Third slide */
+.third-slide-row {
+  font-size: 15px;  
+  margin-top: 10%;
+}
+.title-effects { font-size:20px;}
+.box-slide-col-padding { 
+  padding:3%;
+  border-right: 0.5px solid rgba(155, 149, 149, 0.76);
+  border-top: 0.5px solidrgba(155, 149, 149, 0.76);
+  height: 500px;
+}
+/* box effects */
+
+.hover-effect { border-top: 0.5px solid rgba(155, 149, 149, 0.76);}
+.hover-effect:hover .hidden-text { display:block;}
+.hover-effect:hover { 
+  background: black;color: white;
+  transition: 0.7s;
+  background: linear-gradient(rgba(4, 5, 5, 0.883),rgba(17, 18, 19, 0.931)), url('img/img2.jpg');
+}
+.hidden-text{ display: none;}
+/* Slide four */
+
+.font-size-20px {
+line-height: 40px;
+margin-top: 10%;
+}
+
+.arrow-scroll {
+  margin-top: 32vh;
+}
+.arrow-scroll hr {
+  width: 60px;
+  position: relative;
+  right: 51%;
+}
+.arrow-scroll  i { font-size: 30px;}
+.arrow-scroll  i:hover {color: red;}
+#circle { 
+  height: 30px;
+  position: relative;
+  bottom: 10vh;
+  right: 10vh;
+  border: 1px solid rgba(0, 0, 0, 0.568);
+  border-radius: 100%;
+  width: 30px;
+}
+/* ipad css */
+.ipad {
+  border:1px solid rgba(160, 153, 153, 0.637);
+  height: 75vh;
+  max-height: 75vh;
+  margin-left: 8%;
+  text-align: center;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  overflow: hidden;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(199,183,199,1);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(199,183,199,1);
+  box-shadow: 10px 10px 5px 0px rgba(199,183,199,1);
+}
+
+.inner-img  img {
+  position: relative;
+  width: 95%;
+}
+
+.border-top-paragraph {
+   border-top:3px solid red ;
+  width: 40%;
+  position: relative;
+  
+  left: 40%;
+  bottom: 6%;}
+
+/* Slide five */
+
+.numbers { 
+font-size: 30px;
+color: red;
+}
+.bg-grey { 
+background: rgb(213, 213, 216);
+padding:8%;
+}
+
+.title-five-slide { 
+line-height: 3;
+margin-top: 10%;
+font-size: 2rem;
+}
+
+
+/* Six slide bg-stairs */
+
+.bg-stairs {
+background: linear-gradient(rgba(22, 26, 27, 0.534),rgb(24, 27, 29)), url('img/pexels-photo-1695056.jpeg');
+height: 100vh;
+background-size: cover;
+background-position: bottom;
+}
+
+#joinUs-btn { 
+background:white;
+color: rgb(82, 80, 80);
+width: 200px;
+padding: 1%;
+margin-right: 3%;
+border:1px solid white;
+}
+
+#hireUs-btn {
+background:linear-gradient(rgba(248, 51, 61, 0.863),rgb(223, 73, 36));
+color: white;
+width: 200px;
+padding: 1%;
+border: none;
+}
+
+.title-global-exp h2{
+ color: white;
+font-size: 50px;
+margin-top: 30%;
+margin-bottom: 5%;
+}
+
+
+
+
+/* service css  */
+#service-body {background-color: gainsboro;}
+.service-container {
+border-right: 3px solid rgba(105, 100, 100, 0.76);
+border-left: 3px solid rgba(128, 119, 119, 0.76);
+height: 70vh;;
+margin-top: 1%;
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(107,168,110,1) 46%, rgba(0,212,255,1) 100%);
+-webkit-box-shadow: -15px -1px 37px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px -1px 37px -3px rgba(0,0,0,0.75);
+box-shadow: -15px -1px 37px -3px rgba(0,0,0,0.75);
+padding:2%;
+}
+
+.service-ul li { 
+margin-bottom: 20%; 
+margin-top:5%;
+
+}
+.service-ul a {
+margin-top: 5rem;
+font-size: 2rem;
+color: rgb(240, 234, 234);
+text-decoration: none;
+color: rgb(180, 186, 197);
+}
+
+#kaseta { width: 100%;}
+#service-lista li { margin-bottom: 5%;}
+#service-inner {margin-top: 15%; 
+margin-right:3%;}
+.cool-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 8px;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(107,168,110,1) 46%, rgba(0,212,255,1) 100%);
+  transition: width .3s;
+}
+
+.cool-link:hover::after {
+  width: 40%;
+  transition: width .3s;
+}
+/* team css */
+
+
+/* work css */
+
+
+/* hire us  Page css */
+.hire-us {
+background: linear-gradient(rgba(22, 26, 27, 0.534),rgb(24, 27, 29)), url('img/world.jpg');
+height: 100vh;
+background-size: contain;
+background-position: bottom;
+ }
+
+.hire-us-title h1,h3 {
+ color: white;
+ margin-bottom: 5%;
+}
+.hire-us-title   a { color: rgb(202, 97, 97); }
+
+
+/*  ToGle */
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #b63e3e;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+#togle-span {display: none;}
+
+
+/* Media responsive */
+@media screen and (max-width: 786px) {  
+  .border-top-paragraph { display: none;}
+  #padding-container{margin-top: 60%;}
+
+  #togle-span {display: block;}
+}
+ @media screen and (max-width: 426px) {
+
+  .title-global-exp h2{font-size: 30px;} 
+  #kaseta { display: none;}
+  #logo-img  img{width: 80px;}
+  #logo-img2 img{width: 80px;}
+  #joinUs-btn { 
+    width: 200px;
+    margin-right: 0%;
+    margin-bottom: 5%;
+  }
+  .hire-us { height: 150vh;}
+  .home-page-description p {
+      font-size: 20px; 
+      margin-top: 10%;
+  }
+  .border-top-paragraph { display: none;}
+  .lap-top-img img{ 
+  width: 100%;
+  margin-top: 50%;
+  }
+  .arrow-scroll {
+    display: none;
+  }
+  .ipad {
+  margin-left: 0%;
+  height:45vh;
+  margin-bottom: 2%;
+  margin-top: 60%;}
+
+  .second-slide-row h2 { 
+    font-size: 20px;
+    margin-bottom: 10%;
+  }
+  #HireUs-btn { 
+    margin-left: 33%;
+    color: white;
+    width: 99px;
+  }
+  .service-container { height: 95vh;}
+  .service-ul a { font-size: 20px;}
+  .service-ul li { margin-bottom: 5%;}
+  #padding-container{margin-top: 230%;}
+  .title-effects { font-size:15px;}
+  .title-five-slide  { font-size:20px;}
+
+}
+
+
+
+
+
+
+
+
